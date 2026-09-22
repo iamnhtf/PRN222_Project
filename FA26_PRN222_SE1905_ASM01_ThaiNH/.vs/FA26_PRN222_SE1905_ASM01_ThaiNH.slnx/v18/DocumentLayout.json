@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7CC4C548-3921-12B1-8F3E-955B22440EF2}|zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj|d:\\se\\semester 7\\prn222\\fa26_prn222_se1905_asm01_thainh\\zcoach.mvcwebapp.thainh\\zcoach.mvcwebapp.thainh.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7CC4C548-3921-12B1-8F3E-955B22440EF2}|zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj|solutionrelative:zcoach.mvcwebapp.thainh\\zcoach.mvcwebapp.thainh.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zCoach.MVCWebApp.ThaiNH",
+              "DocumentMoniker": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+              "RelativeDocumentMoniker": "zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+              "ToolTip": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+              "RelativeToolTip": "zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-22T09:26:43.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

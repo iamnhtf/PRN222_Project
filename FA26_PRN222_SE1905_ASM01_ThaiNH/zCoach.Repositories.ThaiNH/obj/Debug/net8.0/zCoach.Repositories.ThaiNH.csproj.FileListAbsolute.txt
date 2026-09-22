@@ -1,0 +1,15 @@
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\bin\Debug\net8.0\zCoach.Repositories.ThaiNH.deps.json
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\bin\Debug\net8.0\zCoach.Repositories.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\bin\Debug\net8.0\zCoach.Repositories.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\bin\Debug\net8.0\zCoach.Entities.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\bin\Debug\net8.0\zCoach.Entities.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.csproj.AssemblyReference.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.AssemblyInfoInputs.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.AssemblyInfo.cs
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.csproj.CoreCompileInputs.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.R.98CBA752.Up2Date
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\refint\zCoach.Repositories.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\zCoach.Repositories.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Repositories.ThaiNH\obj\Debug\net8.0\ref\zCoach.Repositories.ThaiNH.dll

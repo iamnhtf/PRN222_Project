@@ -1,0 +1,17 @@
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Services.ThaiNH.deps.json
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Services.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Services.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Entities.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Repositories.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Repositories.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\bin\Debug\net8.0\zCoach.Entities.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.csproj.AssemblyReference.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.AssemblyInfoInputs.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.AssemblyInfo.cs
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.csproj.CoreCompileInputs.cache
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.S.4DDE2F50.Up2Date
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\refint\zCoach.Services.ThaiNH.dll
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\zCoach.Services.ThaiNH.pdb
+D:\SE\Semester 7\PRN222\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Services.ThaiNH\obj\Debug\net8.0\ref\zCoach.Services.ThaiNH.dll
