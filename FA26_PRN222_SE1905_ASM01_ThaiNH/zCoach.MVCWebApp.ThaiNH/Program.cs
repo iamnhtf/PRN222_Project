@@ -1,7 +1,12 @@
+using zCoach.Services.ThaiNH;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<ICoachThaiNhService, CoachThaiNhService>();
+builder.Services.AddScoped<ISpecializationThaiNhService, SpecializationThaiNhService>();
 
 var app = builder.Build();
 

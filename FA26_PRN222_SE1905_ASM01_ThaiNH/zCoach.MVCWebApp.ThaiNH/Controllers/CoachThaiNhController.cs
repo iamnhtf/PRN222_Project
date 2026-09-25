@@ -7,25 +7,26 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using zCoach.Entities.ThaiNH.Models;
 using zCoach.Repositories.ThaiNH.DbContext;
+using zCoach.Services.ThaiNH;
 
 namespace zCoach.MVCWebApp.ThaiNH.Controllers
 {
     public class CoachThaiNhController : Controller
     {
-        private readonly PRN222Context _context;
+        //private readonly PRN222Context _context;
+        private readonly ICoachThaiNhService _transactionCoachService;
+        private readonly ISpecializationThaiNhService _specializationThaiNhService;
 
-        public CoachThaiNhController(PRN222Context context)
-        {
-            _context = context;
-        }
+        public CoachThaiNhController(ICoachThaiNhService transactionCoachService, ISpecializationThaiNhService specializationThaiNhService)
+        => (_transactionCoachService, _specializationThaiNhService) = (transactionCoachService, specializationThaiNhService);
 
-        // GET: CoachThaiNh
+
         public async Task<IActionResult> Index()
         {
-            var pRN222Context = _context.CoachThaiNhs.Include(c => c.SpecializationThaiNh);
-            return View(await pRN222Context.ToListAsync());
+            var items = await _transactionCoachService.GetAllAsync();
+            return View(items);
         }
-
+        /*
         // GET: CoachThaiNh/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -44,7 +45,7 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
 
             return View(coachThaiNh);
         }
-
+        
         // GET: CoachThaiNh/Create
         public IActionResult Create()
         {
@@ -160,5 +161,6 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
         {
             return _context.CoachThaiNhs.Any(e => e.CoachThaiNhid == id);
         }
+        */
     }
 }

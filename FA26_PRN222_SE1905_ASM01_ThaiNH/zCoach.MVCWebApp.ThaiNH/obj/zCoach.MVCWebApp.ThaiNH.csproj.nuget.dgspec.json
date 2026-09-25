@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj": {}
+    "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj": {}
   },
   "projects": {
-    "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
+    "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj",
+        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj",
         "projectName": "zCoach.Entities.ThaiNH",
-        "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj",
+        "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj",
         "packagesPath": "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\obj\\",
+        "outputPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -91,14 +91,14 @@
         }
       }
     },
-    "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj": {
+    "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
         "projectName": "zCoach.MVCWebApp.ThaiNH",
-        "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
+        "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\zCoach.MVCWebApp.ThaiNH.csproj",
         "packagesPath": "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\obj\\",
+        "outputPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.MVCWebApp.ThaiNH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -120,14 +120,14 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
               },
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj"
               },
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj"
               }
             }
           }
@@ -201,14 +201,14 @@
         }
       }
     },
-    "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
+    "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj",
+        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj",
         "projectName": "zCoach.Repositories.ThaiNH",
-        "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj",
+        "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj",
         "packagesPath": "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\obj\\",
+        "outputPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -230,8 +230,8 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
               }
             }
           }
@@ -296,14 +296,14 @@
         }
       }
     },
-    "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj": {
+    "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
+        "projectUniqueName": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
         "projectName": "zCoach.Services.ThaiNH",
-        "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
+        "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
         "packagesPath": "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\",
-        "outputPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\obj\\",
+        "outputPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -325,11 +325,11 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Entities.ThaiNH\\zCoach.Entities.ThaiNH.csproj"
               },
-              "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
-                "projectPath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj"
+              "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj": {
+                "projectPath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Repositories.ThaiNH\\zCoach.Repositories.ThaiNH.csproj"
               }
             }
           }

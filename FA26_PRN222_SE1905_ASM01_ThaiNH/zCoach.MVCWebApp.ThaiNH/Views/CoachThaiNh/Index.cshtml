@@ -1,125 +1,42 @@
 @model IEnumerable<zCoach.Entities.ThaiNH.Models.CoachThaiNh>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Coach Roster";
 }
 
-<h1>Index</h1>
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="text-primary fw-bold">🏋️‍♂️ Coach Roster</h2>
+    <a asp-action="Create" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> Add New Coach
+    </a>
+</div>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.FullName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DateOfBirth)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Gender)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Experience)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Certification)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Salary)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.HireDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Status)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.PublishDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdateAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.IsActive)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.SpecializationThaiNh)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FullName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfBirth)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Gender)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Experience)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Certification)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Salary)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.HireDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Status)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.PublishDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdateAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.IsActive)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpecializationThaiNh.SpecializationName)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CoachThaiNhid">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CoachThaiNhid">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CoachThaiNhid">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+    @foreach (var item in Model) {
+        <div class="col">
+            <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+                <div class="bg-light text-center p-3">
+                    <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "https://cdn-icons-png.flaticon.com/512/3135/3135715.png" : item.ImageUrl)" 
+                         class="rounded-circle object-fit-cover shadow-sm" 
+                         style="width: 120px; height: 120px;" 
+                         alt="Coach Image">
+                </div>
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold text-dark mb-1">@item.FullName</h5>
+                    <span class="badge bg-primary mb-3">@(item.SpecializationThaiNh?.SpecializationName ?? "General")</span>
+                    
+                    <ul class="list-unstyled text-start small mb-0">
+                        <li class="mb-1"><strong class="text-muted">Exp:</strong> @(string.IsNullOrEmpty(item.Experience) ? "N/A" : item.Experience)</li>
+                        <li class="mb-1"><strong class="text-muted">Phone:</strong> @item.Phone</li>
+                        <li class="mb-1 text-truncate"><strong class="text-muted">Email:</strong> @item.Email</li>
+                    </ul>
+                </div>
+                <div class="card-footer bg-white border-top-0 d-flex justify-content-center gap-2 pb-3">
+                    <a asp-action="Edit" asp-route-id="@item.CoachThaiNhid" class="btn btn-sm btn-outline-primary px-3">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.CoachThaiNhid" class="btn btn-sm btn-outline-info px-3">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.CoachThaiNhid" class="btn btn-sm btn-outline-danger px-3">Delete</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UENcXQsBxpk=",
+  "dgSpecHash": "HqLkiBSUynw=",
   "success": true,
-  "projectFilePath": "D:\\SE\\Semester 7\\PRN222\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
+  "projectFilePath": "D:\\SE\\Semester 7\\PRN222\\PRN222_Project\\FA26_PRN222_SE1905_ASM01_ThaiNH\\zCoach.Services.ThaiNH\\zCoach.Services.ThaiNH.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\azure.core\\1.41.0\\azure.core.1.41.0.nupkg.sha512",
     "C:\\Users\\ASUS TUF F15\\.nuget\\packages\\azure.identity\\1.12.1\\azure.identity.1.12.1.nupkg.sha512",
