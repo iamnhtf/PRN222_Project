@@ -13,12 +13,16 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
 {
     public class CoachThaiNhController : Controller
     {
-        //private readonly PRN222Context _context;
+        private readonly PRN222Context _context;
         private readonly ICoachThaiNhService _transactionCoachService;
         private readonly ISpecializationThaiNhService _specializationThaiNhService;
 
         public CoachThaiNhController(ICoachThaiNhService transactionCoachService, ISpecializationThaiNhService specializationThaiNhService)
-        => (_transactionCoachService, _specializationThaiNhService) = (transactionCoachService, specializationThaiNhService);
+        {
+            _context = new PRN222Context();
+            _transactionCoachService = transactionCoachService;
+            _specializationThaiNhService = specializationThaiNhService;
+        }
 
 
         public async Task<IActionResult> Index()
@@ -26,7 +30,7 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
             var items = await _transactionCoachService.GetAllAsync();
             return View(items);
         }
-        /*
+        
         // GET: CoachThaiNh/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -35,9 +39,12 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
                 return NotFound();
             }
 
-            var coachThaiNh = await _context.CoachThaiNhs
-                .Include(c => c.SpecializationThaiNh)
-                .FirstOrDefaultAsync(m => m.CoachThaiNhid == id);
+            //var coachThaiNh = await _context.CoachThaiNhs
+            //    .Include(c => c.SpecializationThaiNh)
+            //    .FirstOrDefaultAsync(m => m.CoachThaiNhid == id);
+
+            var coachThaiNh = await _transactionCoachService.GetByIdAsync(id.Value);
+
             if (coachThaiNh == null)
             {
                 return NotFound();
@@ -45,14 +52,30 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
 
             return View(coachThaiNh);
         }
+
         
         // GET: CoachThaiNh/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
-            ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName");
-            return View();
+            var specializations = await _specializationThaiNhService.GetAllAsync();
+            ViewData["SpecializationThaiNhid"] = new SelectList(specializations, "SpecializationThaiNhid", "SpecializationName");
+
+            var item = new CoachThaiNh()
+            { 
+                FullName = "",
+                Email = "",
+                Phone = "",
+                Gender = "",
+                Address = "",
+                ImageUrl = "",
+                Experience = "",
+                Certification = "",
+                IsActive = true
+            };
+            return View(item);
         }
 
+        
         // POST: CoachThaiNh/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -62,14 +85,19 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(coachThaiNh);
-                await _context.SaveChangesAsync();
+                //_context.Add(coachThaiNh);
+                //await _context.SaveChangesAsync();
+
+                await _transactionCoachService.CreateAsync(coachThaiNh);
+
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
+            //ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
+            
             return View(coachThaiNh);
         }
 
+        /*
         // GET: CoachThaiNh/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {

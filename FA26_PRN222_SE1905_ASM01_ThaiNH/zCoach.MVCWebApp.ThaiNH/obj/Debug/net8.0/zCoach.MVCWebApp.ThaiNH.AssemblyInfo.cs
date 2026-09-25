@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zCoach.MVCWebApp.ThaiNH")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bccee5dee3d5fb7547b8b428ea701051cbe143df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+703dc8db0b40ac75e77bd059ae9a78b10ea6ce95")]
 [assembly: System.Reflection.AssemblyProductAttribute("zCoach.MVCWebApp.ThaiNH")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zCoach.MVCWebApp.ThaiNH")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

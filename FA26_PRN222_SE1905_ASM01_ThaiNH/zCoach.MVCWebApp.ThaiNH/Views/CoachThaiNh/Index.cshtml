@@ -14,7 +14,8 @@
 <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
     @foreach (var item in Model) {
         <div class="col">
-            <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden">
+            <div class="card h-100 shadow-sm border-0 rounded-3 overflow-hidden position-relative">
+                <span class="position-absolute top-0 end-0 badge bg-secondary m-2 rounded-pill">ID: @item.CoachThaiNhid</span>
                 <div class="bg-light text-center p-3">
                     <img src="@(string.IsNullOrEmpty(item.ImageUrl) ? "https://cdn-icons-png.flaticon.com/512/3135/3135715.png" : item.ImageUrl)" 
                          class="rounded-circle object-fit-cover shadow-sm" 
