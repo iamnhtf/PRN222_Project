@@ -554,7 +554,6 @@ D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MV
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\staticwebassets.development.json
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\swae.build.ex.cache
-D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\zCoach.M.2D17EEE3.Up2Date
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\zCoach.MVCWebApp.ThaiNH.dll
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.MVCWebApp.ThaiNH\obj\Debug\net8.0\refint\zCoach.MVCWebApp.ThaiNH.dll

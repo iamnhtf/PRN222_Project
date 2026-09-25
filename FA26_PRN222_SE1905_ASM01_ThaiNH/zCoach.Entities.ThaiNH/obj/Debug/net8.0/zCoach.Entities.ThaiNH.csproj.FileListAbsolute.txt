@@ -23,4 +23,3 @@ D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.En
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Entities.ThaiNH\obj\Debug\net8.0\refint\zCoach.Entities.ThaiNH.dll
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Entities.ThaiNH\obj\Debug\net8.0\zCoach.Entities.ThaiNH.pdb
 D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Entities.ThaiNH\obj\Debug\net8.0\ref\zCoach.Entities.ThaiNH.dll
-D:\SE\Semester 7\PRN222\PRN222_Project\FA26_PRN222_SE1905_ASM01_ThaiNH\zCoach.Entities.ThaiNH\obj\Debug\net8.0\zCoach.E.15DC147B.Up2Date

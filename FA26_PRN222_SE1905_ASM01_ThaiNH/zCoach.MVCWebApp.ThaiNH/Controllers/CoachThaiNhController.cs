@@ -24,7 +24,6 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
             _specializationThaiNhService = specializationThaiNhService;
         }
 
-
         public async Task<IActionResult> Index()
         {
             var items = await _transactionCoachService.GetAllAsync();
@@ -34,25 +33,13 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
         // GET: CoachThaiNh/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            //var coachThaiNh = await _context.CoachThaiNhs
-            //    .Include(c => c.SpecializationThaiNh)
-            //    .FirstOrDefaultAsync(m => m.CoachThaiNhid == id);
+            if (id == null) return NotFound();
 
             var coachThaiNh = await _transactionCoachService.GetByIdAsync(id.Value);
-
-            if (coachThaiNh == null)
-            {
-                return NotFound();
-            }
+            if (coachThaiNh == null) return NotFound();
 
             return View(coachThaiNh);
         }
-
         
         // GET: CoachThaiNh/Create
         public async Task<IActionResult> Create()
@@ -62,110 +49,71 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
 
             var item = new CoachThaiNh()
             { 
-                FullName = "",
-                Email = "",
-                Phone = "",
-                Gender = "",
-                Address = "",
-                ImageUrl = "",
-                Experience = "",
-                Certification = "",
-                IsActive = true
+                FullName = "", Email = "", Phone = "", Gender = "", Address = "", 
+                ImageUrl = "", Experience = "", Certification = "", IsActive = true
             };
             return View(item);
         }
 
-        
         // POST: CoachThaiNh/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("CoachThaiNhid,FullName,Email,Phone,DateOfBirth,Gender,Address,ImageUrl,Experience,Certification,Salary,HireDate,Status,PublishDate,UpdateAt,SpecializationThaiNhid,IsActive")] CoachThaiNh coachThaiNh)
         {
             if (ModelState.IsValid)
             {
-                //_context.Add(coachThaiNh);
-                //await _context.SaveChangesAsync();
-
                 await _transactionCoachService.CreateAsync(coachThaiNh);
-
                 return RedirectToAction(nameof(Index));
             }
-            //ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
-            
+            var specializations = await _specializationThaiNhService.GetAllAsync();
+            ViewData["SpecializationThaiNhid"] = new SelectList(specializations, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
             return View(coachThaiNh);
         }
 
-        /*
         // GET: CoachThaiNh/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var coachThaiNh = await _context.CoachThaiNhs.FindAsync(id);
-            if (coachThaiNh == null)
-            {
-                return NotFound();
-            }
-            ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
+            var coachThaiNh = await _transactionCoachService.GetByIdAsync(id.Value);
+            if (coachThaiNh == null) return NotFound();
+
+            var specializations = await _specializationThaiNhService.GetAllAsync();
+            ViewData["SpecializationThaiNhid"] = new SelectList(specializations, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
             return View(coachThaiNh);
         }
 
         // POST: CoachThaiNh/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CoachThaiNhid,FullName,Email,Phone,DateOfBirth,Gender,Address,ImageUrl,Experience,Certification,Salary,HireDate,Status,PublishDate,UpdateAt,SpecializationThaiNhid,IsActive")] CoachThaiNh coachThaiNh)
         {
-            if (id != coachThaiNh.CoachThaiNhid)
-            {
-                return NotFound();
-            }
+            if (id != coachThaiNh.CoachThaiNhid) return NotFound();
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    _context.Update(coachThaiNh);
-                    await _context.SaveChangesAsync();
+                    await _transactionCoachService.UpdateAsync(coachThaiNh);
                 }
-                catch (DbUpdateConcurrencyException)
+                catch (Exception ex)
                 {
-                    if (!CoachThaiNhExists(coachThaiNh.CoachThaiNhid))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    throw new ApplicationException("Update error", ex);
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["SpecializationThaiNhid"] = new SelectList(_context.SpecializationThaiNhs, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
+            var specializations = await _specializationThaiNhService.GetAllAsync();
+            ViewData["SpecializationThaiNhid"] = new SelectList(specializations, "SpecializationThaiNhid", "SpecializationName", coachThaiNh.SpecializationThaiNhid);
             return View(coachThaiNh);
         }
 
         // GET: CoachThaiNh/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
-            var coachThaiNh = await _context.CoachThaiNhs
-                .Include(c => c.SpecializationThaiNh)
-                .FirstOrDefaultAsync(m => m.CoachThaiNhid == id);
-            if (coachThaiNh == null)
-            {
-                return NotFound();
-            }
+            var coachThaiNh = await _transactionCoachService.GetByIdAsync(id.Value);
+            if (coachThaiNh == null) return NotFound();
 
             return View(coachThaiNh);
         }
@@ -175,20 +123,8 @@ namespace zCoach.MVCWebApp.ThaiNH.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var coachThaiNh = await _context.CoachThaiNhs.FindAsync(id);
-            if (coachThaiNh != null)
-            {
-                _context.CoachThaiNhs.Remove(coachThaiNh);
-            }
-
-            await _context.SaveChangesAsync();
+            await _transactionCoachService.DeleteAsync(id);
             return RedirectToAction(nameof(Index));
         }
-
-        private bool CoachThaiNhExists(int id)
-        {
-            return _context.CoachThaiNhs.Any(e => e.CoachThaiNhid == id);
-        }
-        */
     }
 }
